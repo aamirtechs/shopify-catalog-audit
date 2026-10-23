@@ -1,0 +1,9 @@
+Handle,Title,Variant SKU,Variant Barcode,Variant Price,Variant Weight,Image Src,Image Alt Text,Option1 Value
+blue-cotton-tee,Blue Cotton T-Shirt,TEE-BLU-M,8901001001,19.99,0.20,https://example.com/images/tee-blue.jpg,Blue cotton t-shirt front,Medium
+blue-cotton-tee,,TEE-BLU-L,8901001002,19.99,0.22,,,Large
+blue-cotton-tshirt,Blue Cotton T Shirt,TEE-BLU-M,8901001003,18.99,0.20,https://example.com/images/tee-blue-2.jpg,,Medium
+red-wool-scarf,Red Wool Scarf,SCARF-RED,8901001001,24.50,0.15,https://example.com/images/scarf-red.jpg,Red wool scarf,One Size
+red-wool-scarf,Red Wool Scarf Deluxe,SCARF-RED-2,8901001004,26.00,0.16,https://example.com/images/scarf-red-2.jpg,Red wool scarf deluxe,One Size
+mystery-variant,,VAR-ORPHAN-1,8901001005,9.99,0.10,,,Small
+plain-mug,Plain Ceramic Mug,MUG-PLAIN,8901001006,0,,https://example.com/images/mug.jpg,,Standard
+trail-shoes,Trail Running Shoes,SHOE-TRAIL-9,8901001007,59.99,0.80,,,UK 9

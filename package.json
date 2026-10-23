@@ -1,0 +1,23 @@
+{
+  "name": "shopify-catalog-audit",
+  "version": "1.0.0",
+  "description": "Audit a Shopify or WooCommerce product CSV export for the catalog problems that cost sales: duplicate SKUs and barcodes, near-duplicate titles, orphaned variant rows, missing images, prices and alt text. Get a review-first fix list. Never auto-deletes.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "shopify-catalog-audit": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test tests/audit.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "shopify",
+    "ecommerce",
+    "product-catalog",
+    "data-quality",
+    "audit"
+  ]
+}
