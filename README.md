@@ -1,5 +1,6 @@
 # shopify-catalog-audit
 Live page: https://aamirtechs.github.io/shopify-catalog-audit/
+Use it in your browser: the Pages site above runs the full tool locally, no install needed.
 
 Audit a Shopify or WooCommerce product CSV export for the catalog problems that cost sales: duplicate SKUs and barcodes, near duplicate titles, orphaned variant rows, missing images, prices and alt text. Get a review first fix list. Never auto-deletes.
 

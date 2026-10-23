@@ -174,6 +174,12 @@ export function buildSummary(records, issues) {
   return lines.join("\n");
 }
 
+export function auditCsvText(text) {
+  const { header, records } = parseCsv(text);
+  const issues = auditCatalog(header, records);
+  return { header, records, issues, review: reviewCsv(issues), summary: buildSummary(records, issues) };
+}
+
 export function loadAndAudit(path) {
   const { header, records } = parseCsv(readFileSync(path, "utf8"));
   return { header, records, issues: auditCatalog(header, records) };
